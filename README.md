@@ -40,6 +40,12 @@ An anonymized case study describing QA responsibilities, claim workflows, dashbo
 
 [View Ryve QA Case Study](case-studies/airline-claims-platform.md)
 
+### 5. SecureChatAI — Private AI Chatbot SaaS
+
+A case study covering QA of a login-protected AI chatbot SaaS application, including document-based question answering, chatbot workflows, authentication, role-based access, and test planning.
+
+[View SecureChatAI QA Case Study](case-studies/private-ai-chatbot.md)
+
 ## My Testing Approach
 
 1. Understand requirements and acceptance criteria.
