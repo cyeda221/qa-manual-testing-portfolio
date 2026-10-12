@@ -1,10 +1,12 @@
 # QA Case Study: Private AI Chatbot
 
-**Project:** Private AI Chatbot  
-**Application Type:** AI-Powered Web Application  
+**Project:** SecureChatAI — Private AI Chatbot  
+**Application URL:** [https://securechatai.com/](https://securechatai.com/)  
+**Application Type:** SaaS Web Application  
 **Role:** Software Quality Assurance Engineer  
-**Testing Focus:** Functional, Integration, Security, UI, and Regression Testing  
-**Test Documentation:** 152 test cases documented in a structured test plan
+**Test Documentation:** 152 test cases
+
+**Access Note:** SecureChatAI is a login-protected SaaS application. Access to its functionality requires authorized credentials. No login credentials or confidential customer data are published in this portfolio.
 
 ## 1. Project Overview
 
