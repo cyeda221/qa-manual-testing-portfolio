@@ -21,30 +21,46 @@ I am a Software Quality Assurance Engineer with experience testing web, mobile, 
 ## Featured Portfolio Work
 
 ### 1. Login Test Cases
+
 Sample test cases covering valid and invalid credentials, empty fields, password masking, and authentication workflows.
 
 [View Login Test Cases](test-cases/login-test-cases.md)
 
 ### 2. Sample Bug Reports
-Illustrative defect reports with reproduction steps, expected and hypothetical actual results, impact, severity, and priority.
+
+Illustrative defect reports with reproduction steps, expected results, hypothetical actual results, impact, severity, and priority.
 
 [View Sample Bug Reports](bug-reports/sample-bug-reports.md)
 
 ### 3. Login Test Plan and Summary
+
 A sample test plan covering scope, testing approach, entry and exit criteria, risks, and execution reporting.
 
 [View Test Plan](test-plans/login-test-plan.md)
 
-### 4. Ryve — Airline Claim Automation System
-An anonymized case study describing QA responsibilities, claim workflows, dashboard testing, SLA validation, regression checks, and defect tracking.
+### 4. Ryve — Airline Claims Platform
+
+An anonymized case study covering claim submission, passenger and operations dashboards, SLA validation, regression testing, and defect tracking.
 
 [View Ryve QA Case Study](case-studies/airline-claims-platform.md)
 
 ### 5. SecureChatAI — Private AI Chatbot SaaS
 
-A case study covering QA of a login-protected AI chatbot SaaS application, including document-based question answering, chatbot workflows, authentication, role-based access, and test planning.
+A case study covering QA of an AI-powered SaaS application, including document-based question answering, chatbot workflows, authentication, role-based access, and test planning.
 
 [View SecureChatAI QA Case Study](case-studies/private-ai-chatbot.md)
+
+### 6. Artyfarty — Art Marketplace
+
+A case study covering functional, UI, mobile, API, payment, booking and scheduling, chat and notification, regression, and role-based access testing.
+
+[View Artyfarty QA Case Study](case-studies/artyfarty-marketplace.md)
+
+### 7. AI-Generated Skills Game
+
+A case study covering mobile app testing, quizzes, fill-in-the-blank and text-answer workflows, notifications, social sharing, regression testing, and defect reporting.
+
+[View AI-Generated Skills Game QA Case Study](case-studies/ai-generated-skills-game.md)
 
 ## My Testing Approach
 
