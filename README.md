@@ -2,37 +2,60 @@
 
 **Maria Syed | Software Quality Assurance Engineer**
 
-Welcome to my QA portfolio. This repository demonstrates my approach to manual software testing, test case design, defect reporting, regression testing, and test documentation.
+Welcome to my QA portfolio, showcasing practical examples of test design, defect reporting, test planning, and project-based software testing experience.
 
-## Skills Demonstrated
+## About Me
 
-- Functional, smoke, regression, and exploratory testing
-- Web and mobile application testing
-- Positive, negative, and boundary-value test scenarios
-- Test case design and execution
-- Clear, reproducible bug reports
-- Requirements and acceptance-criteria validation
-- API testing with Postman
-- Test documentation and defect tracking
+I am a Software Quality Assurance Engineer with experience testing web, mobile, SaaS, and AI-powered applications. My approach focuses on understanding requirements, validating end-to-end workflows, identifying defects, and documenting clear, actionable findings.
 
-## Portfolio Contents
+## Skills & Tools
 
-| Section | Description |
-|---|---|
-| Test Cases | Structured test cases with preconditions, steps, expected results, and status |
-| Bug Reports | Reproducible defects with severity, priority, actual results, and expected results |
-| Test Plans | Scope, objectives, test approach, and summary reports |
-| Case Studies | Anonymized examples of application testing workflows and findings |
+- **Testing:** Functional, Regression, Smoke, Exploratory, End-to-End
+- **Platforms:** Web and Mobile Applications
+- **AI Testing:** Chatbot and Document Processing Workflows
+- **API Testing:** Postman
+- **Performance Testing:** Apache JMeter
+- **Defect Tracking:** ClickUp
+- **Test Automation:** Learning Playwright with JavaScript
 
-## Testing Approach
+## Featured Portfolio Work
 
-My testing approach focuses on understanding requirements, identifying risk, validating end-to-end workflows, exploring edge cases, and documenting defects so that development teams can reproduce and resolve them efficiently.
+### 1. Login Test Cases
+Sample test cases covering valid and invalid credentials, empty fields, password masking, and authentication workflows.
 
-## About This Repository
+[View Login Test Cases](test-cases/login-test-cases.md)
 
-This portfolio contains selected testing examples created for demonstration purposes. Any practice scenarios will be identified as samples, and professional project details will be anonymized to protect confidential information.
+### 2. Sample Bug Reports
+Illustrative defect reports with reproduction steps, expected and hypothetical actual results, impact, severity, and priority.
 
-## Contact
+[View Sample Bug Reports](bug-reports/sample-bug-reports.md)
 
-- **LinkedIn:** [Maria Syed](https://www.linkedin.com/in/syeda-maria-3011ma/)
-- **GitHub:** [@cyeda221](https://github.com/cyeda221)
+### 3. Login Test Plan and Summary
+A sample test plan covering scope, testing approach, entry and exit criteria, risks, and execution reporting.
+
+[View Test Plan](test-plans/login-test-plan.md)
+
+### 4. Ryve — Airline Claim Automation System
+An anonymized case study describing QA responsibilities, claim workflows, dashboard testing, SLA validation, regression checks, and defect tracking.
+
+[View Ryve QA Case Study](case-studies/airline-claims-platform.md)
+
+## My Testing Approach
+
+1. Understand requirements and acceptance criteria.
+2. Identify critical workflows, edge cases, and risks.
+3. Design and execute relevant test scenarios.
+4. Document defects with clear reproduction steps.
+5. Retest fixes and perform regression checks.
+6. Communicate findings clearly to support product quality.
+
+## Important Notes
+
+- Login test cases and bug reports are sample portfolio artifacts, not verified results from a live application.
+- The Ryve case study is anonymized to protect confidential project information.
+- Tools and skills are listed according to my experience and current learning stage.
+
+## Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/syeda-maria-3011ma/)
+- [GitHub Profile](https://github.com/cyeda221)
