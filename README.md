@@ -38,11 +38,13 @@ A sample test plan covering scope, testing approach, entry and exit criteria, ri
 
 [View Test Plan](test-plans/login-test-plan.md)
 
-### 4. Ryve — Airline Claims Platform
+### 4. Travaro — Flight Compensation & Claims Platform
 
-An anonymized case study covering claim submission, passenger and operations dashboards, SLA validation, regression testing, and defect tracking.
+An anonymized case study describing manual QA of claim submission, document-upload workflows, passenger and operations dashboards, SLA-related behavior, payout workflows, regression testing, and defect tracking.
 
-[View Ryve QA Case Study](case-studies/airline-claims-platform.md)
+[View Travaro QA Case Study](case-studies/travaro-flight-compensation-platform.md)
+
+[Visit Travaro](https://travaro.app/)
 
 ### 5. SecureChatAI — Private AI Chatbot SaaS
 
