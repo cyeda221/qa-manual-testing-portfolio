@@ -4,7 +4,7 @@
 
 **Project:** Travaro  
 **Website:** https://travaro.app/  
-**Application Type:** Web Application  
+**Application Type:** Saas Application  
 **Role:** Software Quality Assurance Engineer  
 **Testing Approach:** Manual Testing  
 **Defect Tracking:** ClickUp  
