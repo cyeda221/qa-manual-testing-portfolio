@@ -1,103 +1,130 @@
-# QA Case Study: Ryve — Airline Claim Automation System
+# QA Case Study: Travaro — Flight Compensation & Claims Platform
 
-**Project:** Ryve — Airline Claim Automation System  
+## Project Overview
+
+**Project:** Travaro  
+**Website:** https://travaro.app/  
 **Application Type:** Web Application  
-**Project Period:** September 2025 – January 2026  
 **Role:** Software Quality Assurance Engineer  
-**Testing Environment:** Staging  
-**Defect Tracking:** ClickUp
+**Testing Approach:** Manual Testing  
+**Defect Tracking:** ClickUp  
+**Project Duration:** September 2025 – Feburary 2026
 
-## 1. Project Overview
+Travaro is a flight-compensation platform designed to help passengers submit and manage claims related to flight disruptions, including delays and cancellations. The platform supports claim submission, document collection and verification, claim processing, and compensation-related workflows.
 
-Ryve is a web-based airline claim automation platform that enables passengers to submit compensation claims for flight delays, cancellations, and overbooking. It supports airlines in managing, verifying, and processing claims through an automated workflow.
+My role focused on validating application functionality, identifying defects, testing end-to-end workflows, and helping ensure that the platform behaved according to the available requirements and designs.
 
-The platform supports the claim lifecycle through eligibility checks, document verification, workflow automation, and payout processing, with the aim of reducing manual effort and improving the passenger experience.
+## Project Objectives
 
-## 2. Key Platform Features
+The platform aimed to simplify the flight-compensation process by providing:
 
-- **Claim Eligibility:** Compensation eligibility workflows based on applicable airline regulations, including EU261-related rules.
-- **Multi-Step Claim Intake:** Claim submission, document upload, and validation.
-- **Document Verification:** OCR-related document processing for identification and travel documents.
-- **Claim Workflow:** Submission, review, approval, and payout-related processes.
-- **Passenger Dashboard:** Claim submission and status tracking.
-- **Operations and Administration Dashboards:** Internal claim management and review workflows.
-- **Analytics Dashboard:** Claim performance and SLA-related information.
-- **Payout Options:** Bank transfer, travel vouchers, and airline miles.
-- **Authentication:** Passwordless magic-link authentication.
+- A guided, multi-step claim submission process.
+- Passenger and travel-document uploads.
+- Document verification workflows.
+- Claim status tracking and processing.
+- Passenger, operations, and administrative dashboards.
+- SLA-related status indicators and workflow tracking.
+- Payout-related options and processes.
+- Analytics and operational reporting.
 
-## 3. My QA Responsibilities
+## My QA Responsibilities
 
-My work focused on validating application behavior against available requirements, QA criteria, and design references.
+### 1. Functional Testing
 
-### Functional and End-to-End Testing
-- Tested multi-step claim submission workflows.
-- Validated key passenger journeys and claim-related interactions.
-- Checked document-submission and payout-related steps.
+- Tested key application features against available requirements and designs.
+- Validated multi-step claim submission workflows.
+- Checked form inputs, required fields, navigation, and workflow transitions.
+- Verified that application behavior matched expected results.
+- Explored edge cases and unexpected user interactions.
 
-### Dashboard Testing
-- Tested passenger-facing functionality and internal operations, administration, and analytics dashboards.
-- Validated claim information, status presentation, and relevant dashboard workflows.
-- Reviewed UI behavior against the applicable specifications and design references.
+### 2. Claim Submission and Document Upload Testing
 
-### Workflow and SLA Validation
-- Checked claim statuses and status badges.
-- Validated SLA-status mappings and dashboard filters.
-- Reviewed workflow behavior against the available acceptance criteria.
+- Tested the claim intake process across multiple steps.
+- Validated document-upload workflows and related form behavior.
+- Checked navigation between claim steps and the handling of entered information.
+- Reviewed document verification indicators and related status behavior.
 
-### Regression and Exploratory Testing
-- Performed exploratory checks to identify unexpected behavior and inconsistencies.
-- Rechecked relevant functionality during testing cycles.
-- Investigated discrepancies between implemented behavior and available requirements.
+### 3. Dashboard Testing
 
-### Defect Reporting
-- Documented reproducible issues with steps, expected results, and actual results.
-- Tracked defects and follow-up items in ClickUp.
-- Communicated testing findings to the relevant project team members.
+Tested relevant functionality across the following dashboards:
 
-## 4. Testing Challenges
+- **Passenger Dashboard:** Claim information, statuses, and related user workflows.
+- **Operations Dashboard:** Claim processing, status management, filters, and SLA-related information.
+- **Admin Dashboard:** Administrative views and relevant claim-management functionality.
+- **Analytics Dashboard:** Data presentation and reporting-related behavior.
 
-One of the main challenges was the difference between some requirements, design references, and implemented behavior.
+### 4. Workflow and SLA Validation
 
-To address this, I reviewed the applicable QA criteria and design references, compared them with the application, and documented discrepancies requiring clarification or correction.
+- Checked claim status transitions and status indicators.
+- Validated filter behavior and displayed claim information.
+- Tested SLA-related behavior against the available requirements.
+- Investigated inconsistencies between requirements, designs, and application behavior.
 
-## 5. Testing Approach
+### 5. Payout Workflow Testing
 
-1. Review requirements, QA criteria, and available design references.
-2. Identify critical user workflows and expected outcomes.
-3. Execute functional, exploratory, and regression checks.
-4. Validate dashboard behavior, statuses, filters, and workflow transitions.
-5. Record reproducible defects with clear expected and actual results.
-6. Track issues in ClickUp and support retesting when changes are available.
+- Tested relevant payout-related steps in the claim workflow.
+- Reviewed the behavior of available payout options.
+- Checked navigation and status handling associated with payout processing.
 
-## 6. Technology Context
+### 6. Regression and Exploratory Testing
 
-The project description identifies the following technology stack:
+- Performed exploratory testing to identify unexpected behavior.
+- Conducted regression checks after relevant application changes.
+- Revisited affected workflows to identify potential side effects.
+- Focused testing on critical user journeys and areas affected by changes.
 
-- **Frontend:** React.js
-- **Backend:** Node.js and Express.js
-- **Database:** MongoDB
-- **Cloud:** AWS/GCP
-- **Document Processing:** OCR integrations
+### 7. Defect Reporting and Collaboration
 
-These are the technologies identified in the project description; this list does not imply that I personally developed or administered these components.
+- Documented defects with clear titles and reproduction steps.
+- Recorded expected and actual results to communicate discrepancies.
+- Used ClickUp to track and organize reported issues.
+- Collaborated with developers and team members to clarify issues and support retesting.
 
-## 7. Skills Demonstrated
+## Testing Scope
+
+The main testing areas included:
+
+| Area | Testing Focus |
+|---|---|
+| Claim intake | Multi-step submission and form validation |
+| Document upload | Upload workflows and verification indicators |
+| Passenger dashboard | Claim information and status display |
+| Operations dashboard | Claim processing, filters, and SLA-related behavior |
+| Admin dashboard | Administrative functionality |
+| Analytics dashboard | Reporting and displayed information |
+| Payout workflows | Payout-related steps and status handling |
+| Regression | Rechecking existing functionality after changes |
+| Defect tracking | Reproducible steps and clear expected versus actual results |
+
+## Tools and Environment
+
+- **ClickUp:** Defect tracking and issue management.
+- **Web Browser:** Manual testing of the web application.
+- **Requirements and Design References:** Reviewing expected behavior and identifying inconsistencies.
+- **Staging Environment:** Testing application changes before release, where applicable.
+
+## Skills Demonstrated
 
 - Manual Software Testing
 - Functional Testing
-- End-to-End Testing
-- Regression Testing
 - Exploratory Testing
-- Requirements Validation
-- Dashboard and Workflow Testing
-- Defect Reporting
+- Regression Testing
+- End-to-End Workflow Testing
+- Web Application Testing
+- Test Scenario Design
+- Requirements and Design Validation
+- Defect Reporting and Retesting
 - ClickUp
 - Cross-Functional Collaboration
 
-## 8. Confidentiality
+## Key Learnings
 
-This case study is an anonymized portfolio summary. It excludes internal application URLs, credentials, customer information, proprietary screenshots, and confidential implementation details.
+This project strengthened my experience in testing multi-step business workflows, validating dashboard functionality, identifying inconsistencies between requirements and implementation, and communicating actionable defects.
 
-## 9. Key Takeaways
+It also reinforced the importance of risk-focused testing, regression checks, and clear documentation when working on an application with interconnected claim-processing workflows.
 
-This project provided experience testing a multi-step claim management platform with passenger-facing and internal workflows. It strengthened my approach to validating requirements, checking end-to-end behavior, investigating inconsistencies, and documenting defects for resolution.
+## Confidentiality
+
+This case study summarizes my QA responsibilities without disclosing internal application URLs, credentials, customer information, or confidential project documentation.
+
+**Note:** This case study describes my testing responsibilities. It does not imply that I developed the platform or that every listed feature was independently tested in every release.
