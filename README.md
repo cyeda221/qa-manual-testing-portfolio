@@ -42,7 +42,7 @@ A sample test plan covering scope, testing approach, entry and exit criteria, ri
 
 An anonymized case study describing manual QA of claim submission, document-upload workflows, passenger and operations dashboards, SLA-related behavior, payout workflows, regression testing, and defect tracking.
 
-[View Travaro QA Case Study](case-studies/travaro-flight-compensation-platform.md)
+[View Travaro QA Case Study](case-studies/airline-claims-platform.md)
 
 [Visit Travaro](https://travaro.app/)
 
